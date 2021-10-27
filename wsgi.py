@@ -1,8 +1,3 @@
-from jaaql.patch import monkey_patch
-
-if __name__ != '__main__':
-    monkey_patch()  # Patch to use async if launched by gunicorn. Important to patch _first_ before anything else
-
 from jaaql.jaaql import create_app
 from controller import JAAQLHelloWorldController
 import documentation as documentation
