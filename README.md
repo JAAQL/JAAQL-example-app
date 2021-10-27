@@ -1,0 +1,3 @@
+# JAAQL-example-app
+Welcome to the JAAQL example app. Here we import JAAQL and use it to produce a documented endpoint. We also create a new docker container. Please refer to https://github.com/JAAQL/JAAQL-middleware-python/blob/main/docker/docker.md on how to run this docker container  
+If you are testing this yourself, you will need to run jaaql install before you call the hello world endpoint. This is because install sets up the logging tables
